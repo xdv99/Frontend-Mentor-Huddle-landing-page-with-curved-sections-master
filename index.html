@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,400&family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/output.css">
+
+</head>
+<body class="font-body">
+  <!-- Header -->
+  <header>
+    <div class="cotainer mx-auto p-8 flex items-center justify-between">
+      <img src="./images/logo.svg" alt="Huddle Logo" class="w-40">
+      <a href="" class="rounded-full text-pink border-2 border-pink p-2 px-6 text-sm hover:opacity-70">Try it Free</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="container p-8 px-14 mx-auto columns-1 space-y-24">
+      <div id="hero-text" class="text-center space-y-10">
+        <h1 class="text-3xl font-bold font-heading text-balance">Build The Community Your Fans Will Love</h1>
+        <p class="text-base text-balance px-6">Huddle re-imagines the way we build communities. You have a voice, but so does 
+          your audience. Create connections with your users as you engage in genuine discussion.</p>
+        <a href="" class="inline-block rounded-full bg-pink text-white p-3 px-12 shadow-md hover:opacity-70">Get Started For Free</a>
+      </div>
+      <img src="./images/screen-mockups.svg" class="md:px-24 md:mx-auto" alt="screen-mockups">
+      <div id="stats" class="flex flex-col items-center space-y-40 md:flex-row md:justify-around md:items-baseline">
+        <!-- Stat 1 -->
+        <div id="card" class="text-center space-y-4 relative w-fit">
+          <p class="text-7xl font-bold">1.4k+</p>
+          <p class="text-[grey]">Communities Formed</p>
+          <i class="fa-solid fa-people-group text-pink absolute -top-12 left-0 text-3xl"></i>
+        </div>
+        <!-- Stat 2 -->
+        <div id="card" class="text-center space-y-4 relative w-fit">
+          <p class="text-7xl font-bold">2.7m+</p>
+          <p class="text-[grey]">Messages Sent</p>
+          <i class="fa-regular fa-comment-dots text-pink absolute -top-12 left-0 text-3xl"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Info Cards -->
+  <section id="info-cards" class="md:mt-20">
+    <!-- Info Card 1 -->
+    <div id="card">
+      <img src="./images/bg-section-top-mobile-1.svg" class="w-full md:hidden">
+      <img src="./images/bg-section-top-desktop-1.svg" class="w-full hidden md:block">
+      <div class="flex flex-col bg-veryPaleBlue px-20 py-10 space-y-20 md:flex-row-reverse md:justify-between md:items-center md:space-y-0">
+        <img src="./images/illustration-grow-together.svg" alt="Grow Together Image" class="md:w-2/5">
+        <div id="info-data" class="text-center space-y-4 md:text-left md:pr-7">
+          <h2 class="font-heading text-xl md:text-2xl">Grow Together</h2>
+          <p class="text-pretty text-sm">Generate meaningful discussions with your audience and build a strong, loyal community. 
+            Think of the insightful conversations you miss out on with a feedback form.
+          </p>
+        </div>
+      </div>
+      <img src="./images/bg-section-bottom-mobile-1.svg" class="w-full md:hidden">
+      <img src="./images/bg-section-bottom-desktop-1.svg" class="w-full hidden md:block">
+    </div>
+    <!-- Info Card 2 -->
+    <div id="card">
+      <div class="flex flex-col px-20 py-10 space-y-20 md:flex-row md:justify-between md:items-center md:space-y-0 md:space-x-20">
+        <img src="./images/illustration-flowing-conversation.svg" alt="Following Conversation" class="md:w-2/5">
+        <div id="info-data" class="text-center space-y-4 md:text-left">
+          <h2 class="font-heading text-xl md:text-2xl">Flowing Conversations</h2>
+          <p class="text-balance">You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
+            just-in-time loading for a more natural flow.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Info Card 3 -->
+    <div id="card">
+      <img src="./images/bg-section-top-mobile-2.svg" class="w-full md:hidden">
+      <img src="./images/bg-section-top-desktop-2.svg" class="w-full hidden md:block">
+      <div class="flex flex-col bg-veryPaleBlue px-20 py-10 space-y-20 md:flex-row-reverse md:justify-between md:items-center md:space-y-0">
+        <img src="./images/illustration-your-users.svg" alt="Grow Together Image" class="md:w-2/5">
+        <div id="info-data" class="text-center space-y-4 md:text-left md:pr-7">
+          <h2 class="font-heading text-xl md:text-2xl">Your Users</h2>
+          <p class="text-balance">It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
+            once signed in to your app, your users can start chatting immediately.
+          </p>
+        </div>
+      </div>
+      <img src="./images/bg-section-bottom-mobile-2.svg" class="w-full md:hidden">
+      <img src="./images/bg-section-bottom-desktop-2.svg" class="w-full hidden md:block">
+    </div>
+  </section>
+
+  <section class="text-center space-y-8 px-20 py-40">
+    <h2 class="font-heading text-2xl/relaxed">Ready To Build Your Community?</h2>
+    <a href="" class="inline-block rounded-full bg-pink text-white p-3 px-12 shadow-md hover:opacity-70">Get Started For Free</a>
+  </section>
+
+  <footer class="text-veryPaleBlue text-sm text-balance">
+    <img src="./images/bg-footer-top-mobile.svg" class="w-full md:hidden">
+    <img src="./images/bg-footer-top-desktop.svg" class="w-full hidden md:block">
+
+    <div class="p-8 bg-veryDarkCyan flex flex-col space-y-12 md:flex-row-reverse md:space-y-0">
+      <!-- Newsletter -->
+      <div id="news" class="space-y-6 md:ml-20">
+        <h3 class="uppercase text-lg text-white">Newsletter</h3>
+        <p>
+          To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+          send you spam or pass on your email address
+        </p>
+        <div class="grid grid-cols-2 gap-4 md:grid-cols-3">
+          <input type="email" class="peer col-span-2 py-2 rounded-md text-black invalid:border-2 border-lighRed">
+          <a href="" class="col-start-2 rounded-md bg-pink py-2 text-lg text-center text-white shadow-md hover:opacity-80 md:col-start-3">Subscibe</a>
+          <p class="invisible text-lighRed peer-invalid:visible md:col-span-3">Check your email please</p>
+          
+        </div>
+      </div>
+      <!-- Details -->
+      <div id="details" class="space-y-10">
+        <img src="./images/logo-white.svg" class="w-36" alt="Huddle Logo">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+          vestibulum a, ultrices quis sem.
+        </p>
+        <!-- Contact -->
+        <div id="contact" class="space-y-6">
+          <div class="flex space-x-4">
+            <img src="./images/icon-phone.svg" alt="Phone icon">
+            <p>Phone: +1-543-123-4567</p>
+          </div>
+          <div class="flex space-x-4">
+            <img src="./images/icon-email.svg" alt="Phone icon">
+            <p>example@huddle.com</p>
+          </div>
+        </div>
+        <!-- Social Icons -->
+        <div class="space-x-3">
+          <a href="">
+            <i class="fa-brands fa-square-facebook text-3xl hover:text-[#5680e1]"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-instagram text-3xl hover:text-[#5680e1]"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-square-twitter text-3xl hover:text-[#5680e1]"></i>
+          </a>
+        </div>
+      </div>
+      
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/c456d5abb1.js" crossorigin="anonymous"></script>
+</body>
+</html>
