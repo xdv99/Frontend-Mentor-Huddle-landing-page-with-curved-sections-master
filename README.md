@@ -14,6 +14,8 @@ This is a solution to the [Huddle landing page with curved sections challenge on
 
 This as the Huddle Landing Page design challenge from [Frontend Mentor](https://www.frontendmentor.io).
 
+[**Live Preview**](https://xdv99.github.io/Frontend-Mentor-Huddle-landing-page-with-curved-sections-master/)
+
 ### Screenshot
 
 | ![Image 1](./screenshots/desktop.jpeg) | ![Image 2](./screenshots/mobile.jpeg) |
